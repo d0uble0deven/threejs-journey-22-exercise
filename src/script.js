@@ -102,7 +102,7 @@ const mouse = new THREE.Vector2();
 
 window.addEventListener('mousemove', (_event) => {
     mouse.x = _event.clientX / sizes.width * 2 - 1
-    mouse.y = - (_event.clientY / sizes.width) * 2 + 1
+    mouse.y = - (_event.clientY / sizes.height) * 2 + 1
 })
 
 window.addEventListener('click', () => {
